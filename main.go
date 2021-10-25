@@ -4,19 +4,15 @@ import (
     "log"
     "os/exec"
 	"time"
-	"strings"
 )
 
 func main(){
 	
-	list_domain := []string{"https://blackhatintelligence.net","https://google.com","https://id.quora.com"}
-
-	// domain := "https://google.com"
-	output := strings.Join(list_domain, `,`)
+	list_domain := []string{"https://blackhatintelligence.net","https://blackhatintelligence.net"}
 
 	cmd := exec.Command(
 		"/opt/google/chrome/google-chrome",
-		output,
+		list_domain...,
 	)
 
 	if err := cmd.Start(); err != nil {
