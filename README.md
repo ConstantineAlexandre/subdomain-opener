@@ -1,4 +1,4 @@
-# SUBDOMAIN CHECKER
+# SUBDOMAIN CHECKER ( BETA )
 
 subdomain checker is a free open-source tools. for check subdomain active or not with open the tab browsers.
 
