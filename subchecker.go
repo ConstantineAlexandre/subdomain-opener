@@ -28,6 +28,7 @@ func printFile(filename string) error {
     }
 
 	cmd := exec.Command(
+        // YOUR BROWSER PATH HERE
 		"/opt/firefox/firefox",
 		lines...,
 	)
