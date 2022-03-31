@@ -1,8 +1,16 @@
 # SUBDOMAIN OPENER
 
 subdomain checker is a free open-source tools. for check subdomain active or not with open the tab browsers.
-customize, build the project with your own :D.
+customize, build the project with your own.
 
-## RUN
+## INSTALL
 
+```
+git clone https://github.com/trademark007/subdomain-opener.git
+```
+
+## USAGE
+
+```
 ./subchecker.go subdomain_list.txt
+```
