@@ -12,5 +12,5 @@ git clone https://github.com/trademark007/subdomain-opener.git
 ## USAGE
 
 ```
-go run subchecker.go subdomain_list.txt
+go run subchecker.go tests.txt
 ```
